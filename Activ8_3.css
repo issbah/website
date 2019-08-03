@@ -1,0 +1,20 @@
+.center{
+  /* margin-left: 30%; */
+  display: block;
+  margin-left: 25%
+}
+
+h1{
+  color:#77dd77;
+}
+
+.content{
+  margin: auto;
+  font-family: 'Amatic SC';
+  font-size: 220%;
+}
+.center1{
+  display: block;
+  margin-left: 5%
+  height: 4%
+}

@@ -1,0 +1,59 @@
+h1{
+  color:black;
+  background:white;
+  font-family: Comic Sans MS;
+}
+
+h2{
+  color:black;
+  font-family: 'Amatic SC';
+  font-size: 300%;
+
+}
+
+.events{
+  background:pink;
+
+}
+
+.food{
+  background:pink
+}
+
+.map{
+  background:#F7CD70
+}
+.content{
+  font-family: 'IM Fell Great Primer SC';
+  font-size: 200%
+  width: 80%;
+}
+.center{
+  width: 500px;
+  height:200px;
+  margin-left: 2%;
+}
+.sug{
+  font-family: 'Amatic SC';
+  font-size: 150%;
+}
+
+
+.food{
+  background:pink
+  font-family: 'Amatic SC';
+  font-size: 110%;
+}
+
+body{
+  text-align: center;
+}
+
+.text{
+  font-family: 'IM Fell Great Primer SC';
+  font-size: 120%;
+  color: black
+}
+.content h1{
+  font-family: 'Amatic SC';
+}

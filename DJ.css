@@ -1,0 +1,16 @@
+body{
+  /* text */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: normal;
+  
+  /* canvas */
+  background-color: LavenderBlush;
+  background-image: none;
+  
+  /* spacing */
+  margin:0;
+  padding:10% 20% 300px 40%;
+}
+h1

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="diet.css">
+	<link rel="stylesheet" href="navbar.css">
+	<script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+	<script src="Activ8_7.js"></script>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+	<meta name="viewport" content="initial-scale=1.0,
+    width=device-width" />
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"
+  type="text/javascript" charset="utf-8"></script>
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"
+  type="text/javascript" charset="utf-8"></script>
+	<title>Map</title>
+</head>
+<body>
+	<div class="topnav" id="myTopnav">
+	<a href="index.html" class="active">Home</a>
+	<a href="activ8.html">BodyType</a>
+	<a href="Activ8_3.html">Nutrition</a>
+	<a href="diet.html">Diet</a>
+	<a href="exercise.html">Exercises</a>
+	<a href="Activ8_6.html">More</a>
+	<a href="Activ8_7.html">Map</a>
+
+	</a>
+	</div>
+
+	<div id="map" class="map"></div>
+	<button onclick = "panHome()">Pan to Home</button>
+	<button onclick = "panCountry()">Go to Country</button>
+	<textarea id="countryname" rows="1" cols="20">Input a country</textarea>
+	<!-- <button onclick = "panEvent()">Go to Events</button>
+	<textarea id="eventname" rows="1" cols="20">Input an event keyword</textarea> -->
+	<form action="javascript:redirect()">
+	  <label>Search :
+	  <input id="search" type="search">
+	</label>
+	  <button type="submit">Search Active for events!</button>
+	</form>
+
+	<footer>
+	</footer>
+</body>
+</html>
